@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  
+  <!--ヘッダー部分-->
   <head>
     <title>Bookers2-debug</title>
     <%= csrf_meta_tags %>
@@ -14,8 +16,11 @@
         <p id="notice"><%= notice %></p>
       </main>
       
+  <!--各ページの挿入部分-->
       <%= yield %>
       
+      
+  <!--フッター-->    
     <%= render 'layouts/footer' %>
   </body>
 </html>
